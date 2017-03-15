@@ -1,0 +1,21 @@
+{
+    "name": "cheerymagic/module-customeraddress",
+    "description": "Add attribute to Customer Address Entity",
+    "license": "",
+    "authors": [
+        {
+            "name": "CustomerAddressAttribute",
+            "email": ""
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "CheeryMagic\\CustomerAddress\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
